@@ -14,5 +14,8 @@ public class JavaHashtable {
                                 + value);
         });
 
+        boolean isBookAvail = ht.contains("Water for Elephants");
+
+        System.out.println("Does books catalog contain Water for Elephants: " + isBookAvail);
     }
 }
